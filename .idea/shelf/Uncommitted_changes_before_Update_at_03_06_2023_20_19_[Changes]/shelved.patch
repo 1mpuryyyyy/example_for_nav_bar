@@ -1,0 +1,48 @@
+Index: templates/home.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <meta charset=\"UTF-8\" name=\"viewpoint\" content=\"width=device-width, inital-scale=1\">\r\n    <title>{{ title }}</title>\r\n    <link href=\"../static/css/static.css\" rel=\"stylesheet\" type=\"text/css\">\r\n    <script src=\"https://unpkg.com/feather-icons\"></script>\r\n    <script src=\"path/to/dist/feather.js\"></script>\r\n</head>\r\n<body>\r\n<h1>Click the burger menu to see the magic.</h1>\r\n<input type=\"checkbox\" id=\"burger-toggle\">\r\n<label for=\"burger-toggle\" class=\"burger-menu\">\r\n  <div class=\"line\"></div>\r\n  <div class=\"line\"></div>\r\n  <div class=\"line\"></div>\r\n</label>\r\n<div class=\"menu\">\r\n  <div class=\"menu-inner\">\r\n    <ul class=\"menu-nav\">\r\n      <li class=\"menu-nav-item\"><a class=\"menu-nav-link\" href=\"#\"><span>\r\n            <div>Home</div>\r\n          </span></a></li>\r\n      <li class=\"menu-nav-item\"><a class=\"menu-nav-link\" href=\"#\"><span>\r\n            <div>About</div>\r\n          </span></a></li>\r\n      <li class=\"menu-nav-item\"><a class=\"menu-nav-link\" href=\"#\"><span>\r\n            <div>Service</div>\r\n          </span></a></li>\r\n      <li class=\"menu-nav-item\"><a class=\"menu-nav-link\" href=\"#\"><span>\r\n            <div>Team</div>\r\n          </span></a></li>\r\n    </ul>\r\n    <div class=\"gallery\">\r\n      <div class=\"title\">\r\n        <p>Sora Gallery</p>\r\n      </div>\r\n      <div class=\"images\">\r\n        <a class=\"image-link\" href=\"#\">\r\n          <div class=\"image\" data-label=\"Star\"><img src=\"https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg\" alt=\"\"></div>\r\n        </a>\r\n        <a class=\"image-link\" href=\"#\">\r\n          <div class=\"image\" data-label=\"Sun\"><img src=\"https://i.loli.net/2019/11/16/FLnzi5Kq4tkRZSm.jpg\" alt=\"\"></div>\r\n        </a>\r\n        <a class=\"image-link\" href=\"#\">\r\n          <div class=\"image\" data-label=\"Tree\"><img src=\"https://i.loli.net/2019/10/18/uXF1Kx7lzELB6wf.jpg\" alt=\"\"></div>\r\n        </a>\r\n        <a class=\"image-link\" href=\"#\">\r\n          <div class=\"image\" data-label=\"Sky\"><img src=\"https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg\" alt=\"\"></div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/home.html b/templates/home.html
+--- a/templates/home.html	(revision ba6cf789bc481cf29b12bebbacbaa16ced4032ec)
++++ b/templates/home.html	(date 1685810462160)
+@@ -1,14 +1,12 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+-    <meta charset="UTF-8" name="viewpoint" content="width=device-width, inital-scale=1">
++    <meta charset="UTF-8" name="viewpoint" >
+     <title>{{ title }}</title>
+     <link href="../static/css/static.css" rel="stylesheet" type="text/css">
+-    <script src="https://unpkg.com/feather-icons"></script>
+-    <script src="path/to/dist/feather.js"></script>
+ </head>
+ <body>
+-<h1>Click the burger menu to see the magic.</h1>
++<h1>Кликни сука</h1>
+ <input type="checkbox" id="burger-toggle">
+ <label for="burger-toggle" class="burger-menu">
+   <div class="line"></div>
+@@ -19,16 +17,16 @@
+   <div class="menu-inner">
+     <ul class="menu-nav">
+       <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+-            <div>Home</div>
++            <div>Главная</div>
+           </span></a></li>
+       <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+-            <div>About</div>
++            <div>О нас</div>
+           </span></a></li>
+       <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+-            <div>Service</div>
++            <div> Услуги</div>
+           </span></a></li>
+       <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+-            <div>Team</div>
++            <div>Наша команда</div>
+           </span></a></li>
+     </ul>
+     <div class="gallery">
